@@ -1,10 +1,5 @@
 import unittest
 from library_item import LibraryItem
-import view_tracks
-from unittest.mock import MagicMock, patch
-import tkinter as tk
-from track_library import list_all, get_item
-
 
 # ===== Test for LibraryItem =====
 class TestLibraryItem(unittest.TestCase):
