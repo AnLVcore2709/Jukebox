@@ -3,7 +3,7 @@ from library_item import LibraryItem
 
 # ===== Test for LibraryItem =====
 class TestLibraryItem(unittest.TestCase):
-    def test_track_creation(self):
+    def test_track(self):
         track = LibraryItem(1, "Song A", "Artist X", 4)
         self.assertEqual(track.track_id, 1)
         self.assertEqual(track.get_name(), "Song A")
